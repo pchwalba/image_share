@@ -38,4 +38,10 @@ a link to the originally uploaded image
 ability to fetch an expiring link to the image (the link expires after a given number of seconds (the user can specify any number between 300 and 30000))
 
 # Setup
-To load built plan run manage.py loaddata basic_tiers.json after initial migrations.
+After running initial migrations run manage.py loaddata basic_tiers.json to populate database with basic user tiers. Create admin account with manage.py createsuperuser and then in admin panel grant admin enterprise tier account.
+
+localhost:8000/images/ - to see uploaded images by user
+
+localhost:8000/upload/ - to upload image
+
+localhost:8000/expiring-links/ - to generate expiring links

@@ -9,8 +9,8 @@ router = DefaultRouter()
 
 urlpatterns = [path('images/', api_views.UserImages.as_view(), name='images'),
                path('upload/', api_views.ImageUpload.as_view(), name='upload'),
-               path("expiring-links/", api_views.ExpiringLinkListCreateView.as_view(), name='expiring-link-create-list'),
-               path("expiring-links/<str:signed_link>/", api_views.ExpiringLinkDetailView.as_view(),
+               path('expiring-links/', api_views.ExpiringLinkListCreateView.as_view(), name='expiring-link-create-list'),
+               path('expiring-links/<str:signed_link>/', api_views.ExpiringLinkDetailView.as_view(),
                     name='expiring-link-detail'),
                ]
 
