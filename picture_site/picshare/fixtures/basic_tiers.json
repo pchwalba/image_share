@@ -1,0 +1,34 @@
+[
+  {
+    "model": "picshare.tier",
+    "pk": 1,
+    "fields": {
+      "name": "Basic",
+      "thumbnail_size_small": 200,
+      "original_size": "False",
+      "expiring_link": "False"
+    }
+  },
+  {
+    "model": "picshare.tier",
+    "pk": 2,
+    "fields": {
+      "name": "Premium",
+      "thumbnail_size_small": 200,
+      "thumbnail_size_large": 400,
+      "original_size": "True",
+      "expiring_link": "False"
+    }
+  },
+ {
+    "model": "picshare.tier",
+    "pk": 3,
+    "fields": {
+      "name": "Enterprise",
+      "thumbnail_size_small": 200,
+      "thumbnail_size_large": 400,
+      "original_size": "True",
+      "expiring_link": "True"
+    }
+  }
+]
