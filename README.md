@@ -1,6 +1,13 @@
 # Picture Share API
 App created with Django and DRF to allow users and share their images.
 
+# Technologies used
+Python 3.11
+Django 4.2.5
+Django REST framework 3.14.0
+Pillow 10.0.1
+
+
 ## Features
 users can upload images via HTTP request
 
